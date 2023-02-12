@@ -7,8 +7,9 @@ metadata:
     tier: frontend
 
 spec:
-  ports:
-  - port: 8000
+  ports:  
+  - protocol: TCP
+    port: 8000
   selector:
     app: karsajobs
     tier: frontend
